@@ -37,7 +37,6 @@ XoWJgWAE0gIhAJs+giTpbPvztoEMkmv3Gfrmp6zXzcalYpFwbImJbCAr
 ### 3.0.2
 1. FIDO2: Enhanced compatibility with Apple-based FIDO2 stacks.
 2. U2F: U2F functionality is now operational.
-3. PIV: Enabled signing of data with a length of fewer than 48 bytes when using PIV with P384.
 
 ### 3.0.0
 
