@@ -34,6 +34,17 @@ XoWJgWAE0gIhAJs+giTpbPvztoEMkmv3Gfrmp6zXzcalYpFwbImJbCAr
 
 ## Changelog
 
+### 3.0.2
+1. FIDO2: Enhanced compatibility with Apple-based FIDO2 stacks.
+2. U2F: U2F functionality is now operational.
+3. PIV: Enabled signing of data with a length of fewer than 48 bytes when using PIV with P384.
+
+### 3.0.0
+
+1. Pass: Introduced a new applet, Pass, which supports static passwords with two slots.
+2. U2F: U2F functionality is not supported.
+3. FIDO2: FIDO2 is not supported on Apple-based stacks (e.g., Safari on macOS or browsers on iOS with USB connections).
+
 ### 2.0.1
 1. FIDO: Solve the problem of registration failure on the new version of Firefox. Specifically, do not return a map when the extension map is empty to avoid deserialization errors in the library used by Firefox (mozilla/authenticator-rs#317).
 
